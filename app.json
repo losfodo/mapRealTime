@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "camera-reactnative",
+    "slug": "camera-reactnative",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

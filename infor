@@ -1,0 +1,45 @@
+------------react native ambiente windows----------------
+*instalar o node caso não tenha na no pc pela net para poder usar o npm, nao é necessario baixar o chocolatey no meio da instalação
+*usar o terminal a gosto power shell
+*node --version   : terminal voce verifica se esta instalado
+*npm --version   : terminal ve se esta instalado o npm do node
+
+*instalação do git é necessaria tbm pela net
+
+*npm install -g expo-cli  : no terminal instalar expo cli
+*expo --version   : terminal verificar se esta instalado
+*expo--help   : terminal verifica comandos para uso
+
+*npm install -g yarn   :terminal instalação do yarn se não tiver 
+*yarn --version  :terminal verificar a suas versão
+
+*expo init camera   :terminal cria o projeto, coloca na opção minimal
+*expo start  :terminal inicialização do servidor do projeto, aparece um qrcode para escanear no celular e usar ou pode usar android studio
+*No Android Studio vai em virtual device manager > vai em create device para baixar um novo ou se tiver um celular vai no celular > aparece setinha para rodar o projeto
+
+*expo install expo-camera   : instalar a dependencia do projeto
+
+------------------uso android studio com react native +atualizado-------------------------------------
+*primeiro passo seguir a doc de acordo para funcionar https://reactnative.dev/docs/environment-setup?guide=native
+
+*chocolatey  :segundo passo instalar o chocolatey de acordo com a documentação com o comando abaixo no terminal, oq já instala java e python de acordo tbm por padrão:
+comando =   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+*choco install -y nodejs-lts microsoft-openjdk11: terceiro passo é instalar node, python e jdk
+
+
+*No Android Studio vai em virtual device manager > vai em create device para baixar um novo ou se tiver um celular vai no celular > aparece setinha para rodar o projeto
+
+-----------------doc-----------------------------------------------
+* documentação: https://docs.expo.dev/versions/latest/sdk/camera/
+
+---------outras dependencias-------------------
+* expo install expo-permissions   : permissoes para salvar a foto da camera
+* expo install expo-media-library   : acesso a criar um album, salvar foto, deletar album..
+----------------------------------
+
+*expo start  :terminal inicialização do servidor do projeto, aparece um qrcode para escanear no celular e usar ou pode usar android studio
+{/**/}
+
+
+
